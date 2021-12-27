@@ -1,0 +1,129 @@
+body{
+    color:lightgreen;
+}
+
+.bac{
+    background-image: url("images/hyd.jpg");
+    background-size: 80% auto;
+
+}
+.card {display:inline-block;  margin-right: 30px; margin-bottom: 30px;}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+.desc{
+    text-align: left;
+
+
+}
+.desc img{
+    float:right;
+}
+.g-owlcarousel-item-title {
+    font-family: muli,helvetica,tahoma,geneva,arial,sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    padding-bottom: 0.938rem;
+    color: #2986db;
+}
+.home-header {
+    background-image: url(/images/hyderabad.jpeg);
+}
+.nav1{
+    height: 120px;
+    width: 1000%;
+    background: #e5e5e5;
+    
+}
+
+.nav1 p{
+
+    color: black;
+}
+
+ .fa {
+    padding: 15px;
+    font-size: 2px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    margin: 2px 1px;
+  }
+  
+  .fa:hover {
+      opacity: 0.4;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.nav-item a{
+    color: cornsilk;
+}
+.card-body a{
+    font-family: hind,helvetica,tahoma,geneva,arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    color: black;
+}
+.card-body p{
+    color: grey;
+}
+.q img{
+width: 50%;
+height: 50%;
+} 
+.q a{
+    font-size: larger;
+    color: hotpink;
+}
+.desc31 p{
+    text-align: justify;
+    margin: 50px;
+color: gray;
+}
+.desc31 h2{
+    color:hotpink;
+}
+.desc31 li{
+    color:peru;
+}
+.desc31 a{
+    color:peru;
+}
+a.sigplus-image {
+    content: "";
+    clear: both;
+    display: inline-block!important;
+   
+    box-sizing: border-box;
+}
+.sigplus-gallery ul>li>a, .sigplus-gallery ul>li>div>a, .sigplus-gallery ul>li>div>.captionplus>a {
+    display: inline-block!important;
+}
+.sigplus-preview{
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.pkgsummary{
+    color: grey;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
